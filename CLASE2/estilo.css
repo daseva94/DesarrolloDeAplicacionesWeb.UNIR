@@ -1,0 +1,24 @@
+.botones {
+    background-color: red;
+    color: aliceblue;
+    border: 5px solid black;
+    display: block;
+    margin-top: 10px;
+}
+
+#NumberTest, #PosOrNeg, #sumNum1, #sumNum2, #ncons, #comNum1, #comNum2{
+    display: block;
+    margin-top: 5px;
+    border: 5px solid blue;
+}
+
+.funcion{
+    color: black;
+    
+}
+
+h2{
+    background-color: yellow;
+    color: black;
+    display: inline;
+}

@@ -24,3 +24,23 @@ function ejecutar3 () {
     var suma = parseInt(numero1) + parseInt(numero2);
     alert(`El valor de la suma es igual a =  ${suma}`);
 }
+
+function ejecutar4 () {
+    var num = document.getElementById("ncons").value;
+    for(let i = 0; i <= num; i++){
+        document.write(`${i}, `);
+    }
+}
+
+function ejecutar5() {
+    var num1 = parseInt(document.getElementById("comNum1").value);
+    var num2 = parseInt(document.getElementById("comNum2").value);
+    
+    if(num1 == num2){
+        alert("Los números ingresados son iguales");
+    }else if(num1 < num2){
+        alert("El número 2 es mayor que el número 1")
+    }else(
+        alert("El número 1 es mayor que el número 2")
+    )
+}

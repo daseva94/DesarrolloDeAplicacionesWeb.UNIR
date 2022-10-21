@@ -5,26 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inserción de datos</title>
+    <link rel="stylesheet" href="./estilo.css">
 </head>
 <body>
 
     <h1>Inserción de datos</h1>
     <br><br>
     <form action="">
-        <label for="NumberTest">Imprimir Número: </label>
-        <input type="number" name="numero1" id="NumberTest" placeholder="Ingrese su número">
-        <button type="button" onclick="ejecutar()">EJECUTAR</button>
+        <label class="funcion" for="NumberTest"><h2>Número: </h2></label>
+        <input class="entradasDeTexto" type="number" name="numero1" id="NumberTest" placeholder="Ingrese su número">
+        <button class="botones" type="button" onclick="ejecutar()">EJECUTAR</button>
         <br><hr><br>
 
-        <label for="PosOrNeg">Número positivo o negativo?</label>
-        <input type="number" name="numero2" id="PosOrNeg" placeholder="Ingrese su número">
-        <button type="button" onclick="ejecutar2()">EJECUTAR</button>
+        <label class="funcion" for="PosOrNeg"><h2>Número positivo o negativo?</h2></label>
+        <input class="entradasDeTexto" type="number" name="numero2" id="PosOrNeg" placeholder="Ingrese su número">
+        <button class="botones" type="button" onclick="ejecutar2()">EJECUTAR</button>
         <br><hr><br>
 
-        <label for="CalcSumas">Calculadora de Sumas: </label>
-        <input type="number" name="sumNum1" id="sumNum1" placeholder="Numero 1">
-        <input type="number" name="sumNum2" id="sumNum2" placeholder="Numero 2">
-        <button type="button" onclick="ejecutar3()">EJECUTAR</button>
+        <label class="funcion" for="CalcSumas"><h2>Calculadora de Sumas: </h2></label>
+        <input class="entradasDeTexto" type="number" name="sumNum1" id="sumNum1" placeholder="Numero 1">
+        <input class="entradasDeTexto" type="number" name="sumNum2" id="sumNum2" placeholder="Numero 2">
+        <button class="botones" type="button" onclick="ejecutar3()">EJECUTAR</button>
+        <br><hr><br>
+
+        <label class="funcion" for="ncons"><h2>Números Consecutivos</h2></label>
+        <input class="entradasDeTexto" type="number" name="ncons" id="ncons" placeholder="Ingrese su número">
+        <button class="botones" type="button" onclick="ejecutar4()">EJECUTAR</button>
+        <br><hr><br>
+
+        <label class="funcion" for="comparador"><h2>Comparador de números</h2></label>
+        <input class="entradasDeTexto" type="number" name="comNum1" id="comNum1" placeholder="Numero 1">
+        <input class="entradasDeTexto" type="number" name="comNum1" id="comNum2" placeholder="Numero 2">
+        <button class="botones" type="button" onclick="ejecutar5()">EJECUTAR</button>
         <br><hr><br>
 
     </form>
